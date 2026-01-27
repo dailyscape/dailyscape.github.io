@@ -8,7 +8,6 @@ var dragRow; //global for currently dragged row
 var totalDailyProfit = 0; //global for total daily profit, maybe move this
 
 var rs3daily = {
-    "treasure-hunter-keys": {task: "Treasure Hunter Keys", url: "https://runescape.wiki/w/Treasure_Hunter", short: true, desc: "Use 2 free daily keys"},
     "traveling-merchant": {task: "Traveling Merchant", url: "https://runescape.wiki/w/Travelling_Merchant%27s_Shop", short: true, desc: "Buy rare items in deep sea fishing hub ('WhirlPoolDnD' FC)<span id=\"traveling-merchant-stock\"></span>"},
     "daily-challenge": {task: "Daily Challenge", url: "https://runescape.wiki/w/Challenge_System", short: true, desc: "Get xp, treasure hunter key x3"},
     "jack-of-trades": {task: "Jack of Trades", url: "https://runescape.wiki/w/Jack_of_trades_aura/Routines", short: true, desc: "Get xp in a range of skills to get an xp book"},
@@ -47,10 +46,6 @@ var rs3daily = {
     },
     "runesphere": {task: "Runesphere", url: "https://runescape.wiki/w/Runesphere", desc: "Hand in up to 1k rune dust for 25k xp"},
     "book-of-char": {task: "Book of Char", url: "https://runescape.wiki/w/The_Book_of_Char", desc: "Drop logs on the ground and use book for fast firemaking xp"},
-    "premier-xp": {task: "Premier XP boost", url: "https://runescape.wiki/w/Premier_artefact", desc: "10% bonus XP for an hour"},
-    "premier-porter": {task: "Premier Porter", url: "https://runescape.wiki/w/Premier_artefact", desc: "50% chance to act as a porter for an hour"},
-    "premier-aura": {task: "Premier Aura Reset", url: "https://runescape.wiki/w/Premier_artefact", desc: "Reset one aura once per day"},
-    "premier-slayer": {task: "Premier Slayer Aura", url: "https://runescape.wiki/w/Premier_artefact", desc: "20% hit chance on enemies < 15% health, 10% chance to not decrease slayer kill count"},
 };
 
 var rs3dailyshops = {
@@ -321,7 +316,6 @@ var rs3weekly = {
 
 var rs3monthly = {
     "solomon-s-store": {task: "Solomon's Store", url: "https://secure.runescape.com/m=mtxn_rs_shop/index?jptg=ia&jptv=sgs_page#category/FreeItem", short: true, desc: "Free cosmetics, check loyalty points and sales"},
-    "premier-club-vault": {task: "Premier Club Vault", url: "https://runescape.wiki/w/Premier_Club_Vault", short: true, desc: "Get free lamps/stars/proteans. Open colossal chest last 5 seconds. Try to do during <a href=\"https://runescape.wiki/w/Prismania\" target=\"_blank\" rel=\"noreferrer noopener\">Prismania</a>"},
     "giant-oyster": {task: "Giant Oyster", url: "https://runescape.wiki/w/Giant_Oyster", short: true, desc: "Fishing & Farming XP and a free treasure trails chest"},
     "god-statues": {task: "God Statues", url: "https://runescape.wiki/w/God_Statues", desc: "Up to 177k construction and 88k prayer or slayer xp"},
     "effigy-incubator": {task: "Effigy Incubator", url: "https://runescape.wiki/w/Effigy_Incubator", desc: "Get 10+ effigies"},
